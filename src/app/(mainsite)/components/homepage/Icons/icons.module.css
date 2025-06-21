@@ -1,0 +1,42 @@
+.icons{
+    padding: calc(var(--section-padding-top) * .5) 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+.icons svg{
+    width: 4vw;
+    height: 4vw;
+}
+.icons svg:nth-child(2){
+    color: var(--primary-color);
+}
+
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+ .icons{
+        gap: 1.5vw;
+    }
+    .icons svg{
+        width: 8vw;
+        height: 8vw;
+    }
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+.icons{
+        gap: 2vw;
+    }
+    .icons svg{
+        width: 14vw;
+        height: 14vw;
+    }
+}
