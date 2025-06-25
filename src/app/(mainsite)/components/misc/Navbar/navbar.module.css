@@ -398,14 +398,16 @@
  
 /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
-    
+    .navContent{
+        padding: 0vw 5%;
+    }
     .logo span{
         padding-left: 2vw;
         font-size: 2rem;
     }
     .logoImg{
-        width: 16vw;
-        height: 16vw;
+        width: 20vw;
+        height: 20vw;
     }
     .noIcon{
         height: 5vw;
