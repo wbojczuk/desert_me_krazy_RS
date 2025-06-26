@@ -11,7 +11,7 @@ export default function Header() {
         <p>Baked fresh with bold flavors and creative twists you won’t find in any store—treat yourself to something truly unforgettable.</p>
         
 
-        <Link href="/contact" className="main-link">Inquire</Link>
+        <Link href="/order" className="main-link">Order Now</Link>
 
         <img src="/img/header-bg.png" alt="image of people cooking" className="bg-img" />
         <Shader opacity={.46} />

@@ -12,7 +12,7 @@ return (
     <h3>Our catering menu features our signature cookies, pies, and exotic cinnamon rolls—customized to fit your theme, size, and sweet tooth. Let us make your next event unforgettable, one bite at a time.</h3>
 
     <div className={`center ${styles.linkWrapper}`}>
-    <Link className='main-link' href={`/contact`}>Book Now</Link>
+    <Link className='main-link' href={`/order`}>Order Now</Link>
     </div>
  
     <img src='/img/delicious.png' alt='Image of food' className='bg-img' />

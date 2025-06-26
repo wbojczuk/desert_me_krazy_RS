@@ -43,8 +43,8 @@ export default function Navbar() {
       ref: homeRef
     },
     {
-      triggers: ["/services"],
-      ref: servicesRef
+      triggers: ["/contact"],
+      ref: contactRef
     },
     
   ]
@@ -172,14 +172,14 @@ export default function Navbar() {
           />
 
           <NavOption
-          title="Services"
-          url="/services"
-          ref={servicesRef}
+          title="Contact"
+          url="/contact"
+          ref={contactRef}
           />
 
           
-          <Link href={"/contact"} className={styles.cta}>
-            <span>Inquire</span>
+          <Link href={"/order"} className={styles.cta}>
+            <span>Order Now</span>
           </Link>
           
 

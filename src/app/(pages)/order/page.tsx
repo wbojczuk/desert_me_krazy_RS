@@ -1,11 +1,8 @@
-import ContactInfo from "@/app/(mainsite)/components/contactpage/ContactInfo/ContactInfo"
-import Delicious from "@/app/(mainsite)/components/homepage/Delicious/Delicious"
-import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-	  title: `Contact | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
-	  description: `Contact | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
+	  title: `Order | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
+	  description: `Order | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 openGraph: {
 title: `${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
 description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
@@ -26,12 +23,10 @@ description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 }
 }
 
-export default function ContactPage(){
+export default function OrderPage(){
 	 return(
 	 	 <>
-			<PageTitle title="Contact" subtitle="" />
-			<ContactInfo />
-			<Delicious />
+
 	 	 </>
 	 )
 }

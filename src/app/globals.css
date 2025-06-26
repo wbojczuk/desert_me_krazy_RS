@@ -175,7 +175,7 @@ body::-webkit-scrollbar-track {
 /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
   body{
-    padding-top: 10vw;
+    padding-top: 13vw;
   }
   :root{
     font-size: 10px;

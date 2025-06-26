@@ -11,9 +11,10 @@
 }
 
 .pageTitle h1{
-    font-size: 5rem;
+    font-size: 6.5rem;
     text-align: center;
     font-family: var(--secondary-font);
+    font-weight: 400;
 }
 
 .pageTitle h2{
