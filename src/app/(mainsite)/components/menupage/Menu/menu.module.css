@@ -1,0 +1,152 @@
+.menu{
+    position: relative;
+    padding: var(--section-padding-top) 0;
+}
+
+.custom{
+    text-align: center;
+    padding-bottom: 6vw;
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.menuSection{
+    padding: 1vw 10%;
+}
+
+.title{
+    font-size: 3.5rem;
+    text-align: center;
+    color: var(--primary-heading);
+}
+
+
+.linkWrapper{
+    margin-top: 1vw;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    margin-top: 1vw;
+}
+.icons svg{
+    width: 3vw;
+    height: 3vw;
+}
+
+.content{
+    margin-top: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.item{
+    margin: 2vw 6.5%;
+    display: inline-block;
+   
+    width: 20%;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding-bottom: 0.5vw;
+}
+.itemTitle{
+    font-size: 1.8rem;
+    font-weight: 800;
+     border-bottom: 4px solid var(--primary-color);
+     margin-bottom: 0.5vw;
+     padding-bottom: 0.5vw;
+}
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .custom{
+        padding-bottom: 8vw;
+    }
+    
+    .menuSection{
+        padding: 1.5vw 5%;
+    }
+    
+    .title{
+        font-size: 3.5rem;
+    }
+    
+    .icons{
+        gap: 1.5vw;
+        margin-top: 1.5vw;
+    }
+    .icons svg{
+        width: 5vw;
+        height: 5vw;
+    }
+    
+    .content{
+        margin-top: 3vw;
+    }
+    
+    .item{
+        margin: 2.5vw 5%;
+        width: 23%;
+        padding-bottom: 1vw;
+    }
+    .desc{
+        font-size: 1.3rem;
+    }
+    .linkWrapper{
+    margin-top: 1.5vw;
+}
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .custom{
+        padding: 0 10% 10vw 10%;
+    }
+    
+    .menuSection{
+        padding: 3vw 5%;
+    }
+    
+    .title{
+        font-size: 3.2rem;
+    }
+    
+    .icons{
+        gap: 2vw;
+        margin-top: 2vw;
+    }
+    .icons svg{
+        width: 8vw;
+        height: 8vw;
+    }
+    
+    .content{
+        margin-top: 5vw;
+    }
+    
+    .item{
+        margin: 4vw 5%;
+        width: 38%;
+        padding-bottom: 2vw;
+    }
+    .desc{
+        font-size: 1.2rem;
+    }
+    .itemTitle{
+     margin-bottom: 1vw;
+     padding-bottom: 1vw;
+}
+.linkWrapper{
+    margin-top: 2vw;
+}
+}
