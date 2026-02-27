@@ -16,7 +16,7 @@ export default function Catering() {
             <h4>Dessert Me Krazy</h4>
             <h2>Catering And Events</h2>
 
-            <p>Planning a special event? Let Dessert Me Krazy bring the sweet! We offer delicious cookies, pies, and our famous cinnamon rolls that are perfect for parties, weddings, work events, and more. Whether you need a full dessert table or a custom order, we’ll make sure your guests remember the treats long after the event is over.
+            <p>Planning a special event? Let Dessert Me Krazy bring the sweet! We are well equipped for caterng events and offer delicious cookies, pies, and our famous cinnamon rolls that are perfect for parties, weddings, work events, and more. Whether you need a full dessert table or a custom order, we’ll make sure your guests remember the treats long after the event is over.
             </p>
 
 

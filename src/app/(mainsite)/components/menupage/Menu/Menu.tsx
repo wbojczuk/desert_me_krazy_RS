@@ -49,7 +49,45 @@ return (
                 <div className={styles.desc}>Rich creamy chocolate with creamy peanut butter & chocolate frosting.</div>
             </div>
         </div>
-        <div className={`center ${styles.linkWrapper}`}><Link className='main-link' href={"/order"}>Order Now</Link></div>
+        
+    </div>
+
+    <div className={styles.menuSection}>
+        <h2 className={styles.title}>Cookies</h2>
+       <Icons />
+        <div className={styles.content}>
+             <div className={styles.item}>
+                <div className={styles.itemTitle}>Old Fashioned Oatmeal Raisin Cookies</div>
+                <div className={styles.desc}>Soft & chewy delight.</div>
+            </div>
+              <div className={styles.item}>
+                <div className={styles.itemTitle}>S'mores Cookies</div>
+                <div className={styles.desc}>A true replica of the camp fire favorite  in a cookie. Chocolate, marshmallows, with a perfect crunch of graham cracker.</div>
+            </div>
+              <div className={styles.item}>
+                <div className={styles.itemTitle}>Old Fashioned Soft Peanut Butter Cookies</div>
+                <div className={styles.desc}>Rich chewy peanut butter cookies bursting with flavor.</div>
+            </div>
+             <div className={styles.item}>
+                <div className={styles.itemTitle}>Soft & Chewy Peanut Butter Chocolate Chip Cookie</div>
+                <div className={styles.desc}>The perfect blend of peanut butter and chocolate chips.</div>
+            </div>
+             <div className={styles.item}>
+                <div className={styles.itemTitle}>Strawberry – Seasonal</div>
+                <div className={styles.desc}>Fresh strawberry cookies melt in your mouth *spring & summer*</div>
+            </div>
+             <div className={styles.item}>
+                <div className={styles.itemTitle}>Strawberry Bliss</div>
+                <div className={styles.desc}>Our seasonal strawberry cookie with cream cheese frosting.</div>
+            </div>
+            <div className={styles.item}>
+                <div className={styles.itemTitle}>Strawberry Crunch</div>
+                <div className={styles.desc}>A twist on the classic strawberry crunch ice cream bar.</div>
+            </div>
+           
+           
+        </div>
+        <div className={`center ${styles.linkWrapper}`}><Link className='main-link' href={"/contact"}>Order Now</Link></div>
     </div>
 
     <img src="/img/menu.webp" alt="image of food" className="bg-img" />
