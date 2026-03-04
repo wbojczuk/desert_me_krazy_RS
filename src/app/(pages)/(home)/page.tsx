@@ -5,6 +5,7 @@ import Header from "@/app/(mainsite)/components/homepage/Header/Header";
 import Icons from "@/app/(mainsite)/components/homepage/Icons/Icons";
 import ServiceArea from "@/app/(mainsite)/components/homepage/ServiceArea/ServiceArea";
 import Sweet from "@/app/(mainsite)/components/homepage/Sweet/Sweet";
+import Truck from "@/app/(mainsite)/components/homepage/Truck/Truck";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Header />
       <Delicious />
       <Catering />
+      <Truck />
       <Icons />
       <Good />
       <Sweet />
